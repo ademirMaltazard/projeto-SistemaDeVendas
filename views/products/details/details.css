@@ -2578,5 +2578,13 @@
 }
 
 .white {
-    color: white
+  color: white
 }
+
+.black {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+ }

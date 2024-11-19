@@ -399,7 +399,7 @@
 }
 .category {
   flex-shrink: 0;
-  width: 154px;
+  width: 175px;
   height: 48px;
   position: relative;
 }
@@ -1857,4 +1857,20 @@
 
 .white {
   color: white
+}
+
+input[type="text"] {
+  width: 100%; /* Define que o input ocupará toda a largura disponível */
+  min-width: 300px; /* Define uma largura mínima para o input */
+  height: 30px; /* Define uma altura inicial */
+  resize: both; /* Permite ajustar tanto a largura quanto a altura */
+  overflow: auto; /* Adiciona barras de rolagem se o conteúdo ultrapassar o tamanho */
+  padding: 5px; /* Espaçamento interno do input */
+  border: 1px solid #ccc; /* Bordas do input */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+input[type="text"]:focus {
+  outline: none; /* Remove a borda padrão ao focar */
+  border-color: #0057b8; /* Altera a cor da borda ao focar */
 }
